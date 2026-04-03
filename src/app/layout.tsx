@@ -1,17 +1,10 @@
 import type { Metadata } from "next";
-import { Syne, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const syne = Syne({
-  variable: "--font-syne",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["700", "800"],
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -52,9 +45,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${syne.variable} ${dmSans.variable} ${jetbrainsMono.variable} h-full antialiased scroll-smooth`}
+      className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="bg-[#07070D] text-[#F0F0F8] font-body selection:bg-[#6C63FF]/30 selection:text-white">
+      <body className="bg-[#07070D] text-[#F0F0F8] font-sans selection:bg-[#6C63FF]/30 selection:text-white">
         {children}
       </body>
     </html>

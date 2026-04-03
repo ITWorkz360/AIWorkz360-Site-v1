@@ -22,14 +22,14 @@ export default function About() {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <div className="flex flex-col gap-4">
-              <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// About</span>
-              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
+            <div className="flex flex-col gap-3">
+              <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-1">// About</span>
+              <h2 className="text-4xl md:text-6xl font-black font-heading leading-[0.9] tracking-[-0.05em]">
                  Small team. <br /> Sharp builds.
               </h2>
             </div>
 
-            <div className="flex flex-col gap-8 text-muted text-lg md:text-xl leading-relaxed font-body max-w-xl">
+            <div className="flex flex-col gap-6 text-muted text-lg md:text-xl leading-relaxed font-body max-w-lg">
               <p>
                 AIWorkz360 isn't a bloated agency with 50 account managers. 
                 We're a focused team of AI builders and systems engineers who ship fast and communicate clearly.
@@ -38,7 +38,7 @@ export default function About() {
                 Our background is in IT, cybersecurity, and managed services — 
                 which means we build tools that are not just intelligent, but secure and production-ready from day one.
               </p>
-              <p className="text-white font-bold italic border-l-2 border-indigo pl-6 italic">
+              <p className="text-white font-bold italic border-l-2 border-indigo pl-6">
                 We believe AI shouldn't be a buzzword. <br />
                 It should be in your workflow by next Tuesday.
               </p>

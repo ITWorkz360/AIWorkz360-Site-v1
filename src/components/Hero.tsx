@@ -70,7 +70,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="text-white text-5xl md:text-8xl font-black font-heading leading-[0.9] tracking-[-0.05em] mb-8 text-center md:text-left"
+          className="text-white text-5xl md:text-7xl font-black font-heading leading-[0.9] tracking-[-0.06em] mb-8 text-center md:text-left max-w-4xl"
         >
           The AI Team <br className="hidden md:block" />
           You Don't Have <br className="hidden md:block" />
@@ -82,7 +82,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-muted text-lg md:text-xl max-w-2xl mb-12 text-center md:text-left leading-relaxed contrast-125"
+          className="text-muted text-lg md:text-xl max-w-xl mb-12 text-center md:text-left leading-relaxed contrast-125"
         >
           Custom AI automations and tools built for professionals and SMBs who have better things to do than repetitive work.
         </motion.p>

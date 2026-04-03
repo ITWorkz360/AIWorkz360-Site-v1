@@ -12,9 +12,9 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="py-32 relative bg-bg overflow-hidden whitespace-nowrap overflow-x-hidden">
       <div className="container px-6 mx-auto relative z-10">
-        <div className="flex flex-col gap-4 mb-24">
-          <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// How It Works</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
+        <div className="flex flex-col gap-2 mb-16">
+          <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-1">// How It Works</span>
+          <h2 className="text-4xl md:text-5xl font-black font-heading leading-[0.9] tracking-[-0.05em]">
             From idea to live <br /> in weeks, not months.
           </h2>
         </div>
