@@ -14,7 +14,7 @@ export default function HowItWorks() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="flex flex-col gap-4 mb-24">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// How It Works</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-tight">
+          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
             From idea to live <br /> in weeks, not months.
           </h2>
         </div>

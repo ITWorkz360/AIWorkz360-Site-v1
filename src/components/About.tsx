@@ -24,7 +24,7 @@ export default function About() {
           >
             <div className="flex flex-col gap-4">
               <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// About</span>
-              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-tight">
+              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
                  Small team. <br /> Sharp builds.
               </h2>
             </div>

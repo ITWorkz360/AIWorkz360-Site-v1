@@ -39,7 +39,7 @@ export default function Builds() {
       <div className="container px-6 mx-auto">
         <div className="flex flex-col gap-4 mb-24">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// Builds</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-tight">
+          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
             Results, not <br /> feature lists.
           </h2>
         </div>

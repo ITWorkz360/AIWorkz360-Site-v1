@@ -26,7 +26,7 @@ export default function WhatWeDo() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="flex flex-col gap-4 mb-16">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// What We Do</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-tight max-w-2xl">
+          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em] max-w-2xl">
             Two ways we plug into <br /> your business.
           </h2>
         </div>

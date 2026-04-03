@@ -70,7 +70,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="text-white text-5xl md:text-8xl font-black font-heading leading-[0.9] tracking-[-0.03em] mb-8 text-center md:text-left"
+          className="text-white text-5xl md:text-8xl font-black font-heading leading-[0.9] tracking-[-0.05em] mb-8 text-center md:text-left"
         >
           The AI Team <br className="hidden md:block" />
           You Don't Have <br className="hidden md:block" />

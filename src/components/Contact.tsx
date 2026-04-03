@@ -47,7 +47,7 @@ export default function Contact() {
           >
             <div className="flex flex-col gap-4 mb-20">
               <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// Contact</span>
-              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-tight">
+              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
                  Let's map your <br /> workflow together.
               </h2>
             </div>
