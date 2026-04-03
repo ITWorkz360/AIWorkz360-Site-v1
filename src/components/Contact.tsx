@@ -47,7 +47,7 @@ export default function Contact() {
           >
             <div className="flex flex-col gap-4 mb-20">
               <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// Contact</span>
-              <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
+              <h2 className="text-4xl md:text-6xl font-semibold font-heading leading-tight tracking-[-0.04em]">
                  Let's map your <br /> workflow together.
               </h2>
             </div>
@@ -141,7 +141,7 @@ export default function Contact() {
 
                          <button 
                             type="submit" 
-                            className="w-full sm:w-auto px-10 py-5 rounded-full bg-indigo text-white font-black font-heading text-lg hover:shadow-[0_0_30px_rgba(108,99,255,0.4)] transition-all hover:scale-[1.02] transform flex items-center justify-center gap-3 overflow-hidden relative group"
+                            className="w-full sm:w-auto px-10 py-5 rounded-full bg-indigo text-white font-semibold font-heading text-lg hover:shadow-[0_0_30px_rgba(108,99,255,0.4)] transition-all hover:scale-[1.02] transform flex items-center justify-center gap-3 overflow-hidden relative group"
                          >
                             <span className="relative z-10">Send Message</span>
                             <span className="relative z-10 transition-transform group-hover:translate-x-1">→</span>
@@ -158,7 +158,7 @@ export default function Contact() {
                          <div className="w-20 h-20 rounded-full bg-indigo/20 border border-indigo/40 flex items-center justify-center mb-4">
                             <CheckCircle className="w-10 h-10 text-indigo animate-bounce" />
                          </div>
-                         <h3 className="text-3xl font-black font-heading text-white">Message Sent!</h3>
+                         <h3 className="text-3xl font-semibold font-heading text-white">Message Sent!</h3>
                          <p className="text-muted text-lg max-w-xs mx-auto">
                             Thanks for reaching out. We'll get back to you within 24 hours to schedule your scoping call.
                          </p>

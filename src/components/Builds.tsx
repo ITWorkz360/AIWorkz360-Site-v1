@@ -39,7 +39,7 @@ export default function Builds() {
       <div className="container px-6 mx-auto">
         <div className="flex flex-col gap-4 mb-24">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-2">// Builds</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
+          <h2 className="text-4xl md:text-6xl font-semibold font-heading leading-tight tracking-[-0.04em]">
             Results, not <br /> feature lists.
           </h2>
         </div>
@@ -59,7 +59,7 @@ export default function Builds() {
                   <span className="px-3 py-1 rounded-full bg-white/5 text-[10px] font-mono text-white/40 uppercase tracking-widest border border-white/10 mb-4 inline-block">
                     {build.industry}
                   </span>
-                  <h3 className="text-2xl font-black font-heading text-white tracking-tight">{build.title}</h3>
+                  <h3 className="text-2xl font-semibold font-heading text-white tracking-tight">{build.title}</h3>
                 </div>
                 
                 <p className="text-muted text-lg mb-12 leading-relaxed flex-grow font-body">
@@ -67,7 +67,7 @@ export default function Builds() {
                 </p>
 
                 <div className="pt-8 border-t border-white/10 mt-auto flex flex-col sm:flex-row items-center gap-6 group-hover:border-indigo/30 transition-colors duration-500">
-                  <div className="px-4 py-2 rounded-xl bg-cyan/10 border border-cyan/20 text-cyan text-sm font-black font-heading tracking-tight whitespace-nowrap shadow-cyan/5 shadow-lg group-hover:scale-110 transition-transform">
+                  <div className="px-4 py-2 rounded-xl bg-cyan/10 border border-cyan/20 text-cyan text-sm font-semibold font-heading tracking-tight whitespace-nowrap shadow-cyan/5 shadow-lg group-hover:scale-110 transition-transform">
                     {build.resultBadge}
                   </div>
                   <span className="text-muted text-sm italic font-medium opacity-80">{build.resultText}</span>

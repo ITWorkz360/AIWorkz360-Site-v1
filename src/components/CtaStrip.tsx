@@ -26,7 +26,7 @@ export default function CtaStrip() {
            whileInView={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.8, delay: 0.1 }}
            viewport={{ once: true }}
-           className="text-4xl md:text-7xl font-black font-heading leading-[0.9] tracking-[-0.03em] mb-12 text-white max-w-4xl"
+           className="text-4xl md:text-7xl font-semibold font-heading leading-[0.9] tracking-[-0.03em] mb-12 text-white max-w-4xl"
         >
           Not sure where to start? <br className="hidden md:block" />
           That's exactly what the call is for.
@@ -51,7 +51,7 @@ export default function CtaStrip() {
         >
           <Link
             href="#contact"
-            className="group relative bg-indigo text-white px-10 py-5 rounded-full font-black text-lg hover:shadow-[0_0_40px_rgba(108,99,255,0.4)] transition-all flex items-center gap-3 overflow-hidden"
+            className="group relative bg-indigo text-white px-10 py-5 rounded-full font-semibold text-lg hover:shadow-[0_0_40px_rgba(108,99,255,0.4)] transition-all flex items-center gap-3 overflow-hidden"
           >
             <span className="relative z-10 font-heading">Book a Free Scoping Call</span>
             <span className="relative z-10 transition-transform group-hover:translate-x-1">→</span>
@@ -59,7 +59,7 @@ export default function CtaStrip() {
           </Link>
           <Link
             href="#builds"
-            className="group px-10 py-5 rounded-full font-black text-lg text-white border border-white/20 hover:bg-white/5 transition-all"
+            className="group px-10 py-5 rounded-full font-semibold text-lg text-white border border-white/20 hover:bg-white/5 transition-all"
           >
             See Our Builds
           </Link>

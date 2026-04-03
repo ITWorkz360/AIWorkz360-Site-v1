@@ -24,7 +24,7 @@ export default function About() {
           >
             <div className="flex flex-col gap-3">
               <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-1">// About</span>
-              <h2 className="text-4xl md:text-6xl font-black font-heading leading-[0.9] tracking-[-0.05em]">
+              <h2 className="text-4xl md:text-6xl font-semibold font-heading leading-[0.9] tracking-[-0.05em]">
                  Small team. <br /> Sharp builds.
               </h2>
             </div>
@@ -67,7 +67,7 @@ export default function About() {
                <div className="grid grid-cols-2 gap-10 mb-12 relative z-10">
                  {stats.map((stat, idx) => (
                     <div key={idx} className="flex flex-col gap-2">
-                       <span className="text-3xl md:text-5xl text-white font-black font-heading tracking-tighter transition-all group-hover:scale-110 duration-700 origin-left">
+                       <span className="text-3xl md:text-5xl text-white font-semibold font-heading tracking-tighter transition-all group-hover:scale-110 duration-700 origin-left">
                          {stat.number}
                        </span>
                        <span className="text-muted text-[10px] md:text-xs font-mono uppercase tracking-[0.2em]">

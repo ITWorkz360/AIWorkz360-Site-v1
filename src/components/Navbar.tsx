@@ -30,7 +30,7 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="font-heading text-2xl font-extrabold flex items-center gap-1">
+        <Link href="/" className="font-heading text-2xl font-semibold flex items-center gap-1">
           <span className="text-indigo">AI</span>
           <span className="text-white">Workz360</span>
         </Link>

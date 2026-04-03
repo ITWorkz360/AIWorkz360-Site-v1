@@ -16,7 +16,7 @@ export default function Footer() {
           
           {/* Logo Section */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <Link href="/" className="font-heading text-2xl font-black flex items-center gap-1 group">
+            <Link href="/" className="font-heading text-2xl font-semibold flex items-center gap-1 group">
               <span className="text-indigo transition-transform group-hover:scale-110 duration-500">AI</span>
               <span className="text-white group-hover:opacity-80 transition-opacity">Workz360</span>
             </Link>

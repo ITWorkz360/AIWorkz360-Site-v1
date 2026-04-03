@@ -70,7 +70,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="text-white text-5xl md:text-7xl font-black font-heading leading-[0.9] tracking-[-0.06em] mb-8 text-center md:text-left max-w-4xl"
+          className="text-white text-5xl md:text-7xl font-semibold font-heading leading-[0.9] tracking-[-0.06em] mb-8 text-center md:text-left max-w-4xl"
         >
           The AI Team <br className="hidden md:block" />
           You Don't Have <br className="hidden md:block" />
@@ -120,7 +120,7 @@ export default function Hero() {
         >
           {stats.map((stat, idx) => (
             <div key={idx} className="flex flex-col gap-1">
-              <span className="text-white text-3xl font-black font-heading tracking-tight">{stat.value}</span>
+              <span className="text-white text-3xl font-semibold font-heading tracking-tight">{stat.value}</span>
               <span className="text-muted text-xs font-mono uppercase tracking-widest">{stat.label}</span>
             </div>
           ))}

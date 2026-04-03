@@ -17,7 +17,7 @@ export default function UseCases() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="flex flex-col gap-4 mb-20">
           <span className="text-cyan font-mono text-xs tracking-widest uppercase mb-2">// Use Cases</span>
-          <h2 className="text-4xl md:text-6xl font-black font-heading leading-tight tracking-[-0.04em]">
+          <h2 className="text-4xl md:text-6xl font-semibold font-heading leading-tight tracking-[-0.04em]">
             Built for real <br /> workflows.
           </h2>
         </div>

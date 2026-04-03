@@ -14,7 +14,7 @@ export default function HowItWorks() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="flex flex-col gap-2 mb-16">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-1">// How It Works</span>
-          <h2 className="text-4xl md:text-5xl font-black font-heading leading-[0.9] tracking-[-0.05em]">
+          <h2 className="text-4xl md:text-5xl font-semibold font-heading leading-[0.9] tracking-[-0.05em]">
             From idea to live <br /> in weeks, not months.
           </h2>
         </div>
@@ -37,7 +37,7 @@ export default function HowItWorks() {
               <div className={`relative z-10 w-24 h-24 rounded-full flex items-center justify-center border-2 mb-12 shadow-2xl transition-all duration-500 hover:scale-110 ${
                 step.active ? "bg-indigo border-indigo/20 shadow-indigo/40" : "bg-bg border-white/20 hover:border-indigo/50"
               }`}>
-                <span className={`text-[40px] font-black font-heading tracking-tighter ${step.active ? "text-white" : "text-white/20"}`}>
+                <span className={`text-[40px] font-semibold font-heading tracking-tighter ${step.active ? "text-white" : "text-white/20"}`}>
                   {step.id}
                 </span>
                 {step.active && (
@@ -47,7 +47,7 @@ export default function HowItWorks() {
 
               <div className="mb-4">
                 <span className="text-cyan font-mono text-[10px] uppercase tracking-[0.2em] mb-2 block">{step.subtitle}</span>
-                <h3 className="text-2xl font-black font-heading text-white tracking-tight">{step.title}</h3>
+                <h3 className="text-2xl font-semibold font-heading text-white tracking-tight">{step.title}</h3>
               </div>
               <p className="text-muted text-lg mb-6 leading-relaxed font-body whitespace-normal">
                 {step.body}

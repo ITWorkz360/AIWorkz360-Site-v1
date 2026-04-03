@@ -26,7 +26,7 @@ export default function WhatWeDo() {
       <div className="container px-6 mx-auto relative z-10">
         <div className="flex flex-col gap-2 mb-12">
           <span className="text-indigo font-mono text-xs tracking-widest uppercase mb-1">// What We Do</span>
-          <h2 className="text-4xl md:text-5xl font-black font-heading leading-[0.9] tracking-[-0.05em] max-w-xl">
+          <h2 className="text-4xl md:text-5xl font-semibold font-heading leading-[0.9] tracking-[-0.05em] max-w-xl">
             Two ways we plug into <br /> your business.
           </h2>
         </div>
@@ -44,7 +44,7 @@ export default function WhatWeDo() {
               <div className="mb-8 w-16 h-16 rounded-2xl bg-bg/50 border border-white/10 flex items-center justify-center group-hover:scale-110 transition-transform">
                 {card.icon}
               </div>
-              <h3 className="text-2xl font-black font-heading text-white mb-4 tracking-tight">{card.title}</h3>
+              <h3 className="text-2xl font-semibold font-heading text-white mb-4 tracking-tight">{card.title}</h3>
               <p className="text-muted text-lg mb-8 leading-relaxed font-body">
                 {card.body}
               </p>
