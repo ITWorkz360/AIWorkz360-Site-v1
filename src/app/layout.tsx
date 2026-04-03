@@ -22,7 +22,11 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "AIWorkz360 — The AI Team You Don't Have To Hire",
-  description: "Custom AI automations and AI-powered tool builds for professionals and SMBs. Reclaim your time with tailored systems that ship results.",
+  description: "Custom AI automations and AI-powered tool builds for professionals and SMBs. Reclaim your time with tailored systems.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "AIWorkz360 — The AI Team You Don't Have To Hire",
     description: "Custom AI automations and AI-powered tool builds for professionals and SMBs.",

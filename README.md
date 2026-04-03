@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AIWorkz360 — The AI Team You Don't Have To Hire
 
-## Getting Started
+**AIWorkz360** is a premium marketing platform for custom AI automations and AI-powered tool builds. Designed for professionals and SMBs, it showcases the efficiency, security, and speed of our 360° delivery model.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Core:** [Next.js 15+](https://nextjs.org) (App Router)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com) (Utility-first, CSS-first)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Forms:** [React Hook Form](https://react-hook-form.com/)
+- **Typography:** Syne (Headings), DM Sans (Body), JetBrains Mono (Labels)
+
+## 🎨 Design Philosophy
+
+- **Vibe:** Dark-themed, bold, and high-performance.
+- **Visuals:** Grid backgrounds, radial glows, noise overlays, and smooth transitions.
+- **UX:** One-page "Mission" architecture with sections for Services, Use Cases, How It Works, and Builds.
+
+## 🛠️ Getting Started
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site is production-ready and optimized for [Vercel](https://vercel.com). To deploy:
 
-## Learn More
+```bash
+npx vercel --prod
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+© 2025 AIWorkz360 · ITWorkz360 LLC. All rights reserved.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

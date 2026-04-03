@@ -14,8 +14,38 @@ export default function Hero() {
     <section className="relative min-h-[90vh] flex flex-col justify-center overflow-hidden pt-32 pb-16">
       {/* Background Decor */}
       <div className="absolute inset-0 grid-bg opacity-30 mask-gradient-b"></div>
-      <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-indigo/30 rounded-full blur-[120px] pointer-events-none"></div>
-      <div className="absolute bottom-[20%] left-[-10%] w-[400px] h-[400px] bg-cyan/20 rounded-full blur-[100px] pointer-events-none"></div>
+      
+      <motion.div 
+        animate={{ 
+          scale: [1, 1.2, 1],
+          opacity: [0.3, 0.4, 0.3],
+          x: [0, 50, 0],
+          y: [0, -30, 0]
+        }}
+        transition={{ 
+          duration: 10, 
+          repeat: Infinity, 
+          ease: "easeInOut" 
+        }}
+        className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-indigo/40 rounded-full blur-[140px] pointer-events-none"
+      ></motion.div>
+
+      <motion.div 
+        animate={{ 
+          scale: [1, 1.1, 1],
+          opacity: [0.2, 0.3, 0.2],
+          x: [0, -40, 0],
+          y: [0, 20, 0]
+        }}
+        transition={{ 
+          duration: 8, 
+          repeat: Infinity, 
+          ease: "easeInOut",
+          delay: 1
+        }}
+        className="absolute bottom-[20%] left-[-10%] w-[500px] h-[500px] bg-cyan/20 rounded-full blur-[120px] pointer-events-none"
+      ></motion.div>
+
       <div className="absolute inset-0 noise-overlay"></div>
 
       <div className="container relative z-10 px-6 mx-auto">
