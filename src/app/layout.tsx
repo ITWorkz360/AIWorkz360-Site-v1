@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Syne } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -54,14 +53,15 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${syne.variable} ${jetbrainsMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="bg-[#07070D] text-[#F0F0F8] font-sans selection:bg-[#6C63FF]/30 selection:text-white">
-        {children}
-        <Script
+      <head>
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5485305957308885"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        ></script>
+      </head>
+      <body className="bg-[#07070D] text-[#F0F0F8] font-sans selection:bg-[#6C63FF]/30 selection:text-white">
+        {children}
       </body>
     </html>
   );
