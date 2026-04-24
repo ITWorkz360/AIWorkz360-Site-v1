@@ -24,8 +24,8 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: <Calendar className="w-6 h-6 text-indigo" />, title: "Book a Call", desc: "20-min free scoping session" },
-    { icon: <Mail className="w-6 h-6 text-indigo" />, title: "Email", desc: "hello@aiworkz360.com" },
+    { icon: <Calendar className="w-6 h-6 text-indigo" />, title: "Book a Call", desc: "20-min free scoping session", href: "https://schedule.itworkz360.com/secure-ai-deployment-consultation" },
+    { icon: <Mail className="w-6 h-6 text-indigo" />, title: "Email", desc: "hello@aiworkz360.com", href: "mailto:hello@aiworkz360.com" },
     { icon: <Zap className="w-6 h-6 text-indigo" />, title: "Response Time", desc: "Within 1 business day" },
   ];
 
@@ -53,8 +53,9 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col gap-12">
-               {contactInfo.map((info, idx) => (
-                  <div key={idx} className="flex items-start gap-6 group">
+               {contactInfo.map((info, idx) => {
+                  const content = (
+                    <>
                      <div className="w-14 h-14 rounded-2xl bg-indigo/10 border border-indigo/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 group-hover:shadow-[0_0_20px_rgba(108,99,255,0.2)]">
                         {info.icon}
                      </div>
@@ -62,8 +63,18 @@ export default function Contact() {
                         <span className="text-white text-xl font-bold font-heading">{info.title}</span>
                         <span className="text-muted text-lg font-body leading-relaxed">{info.desc}</span>
                      </div>
-                  </div>
-               ))}
+                    </>
+                  );
+                  return info.href ? (
+                    <a key={idx} href={info.href} target="_blank" rel="noopener noreferrer" className="flex items-start gap-6 group cursor-pointer hover:opacity-90 transition-opacity">
+                      {content}
+                    </a>
+                  ) : (
+                    <div key={idx} className="flex items-start gap-6 group">
+                      {content}
+                    </div>
+                  );
+               })}
             </div>
           </motion.div>
 
